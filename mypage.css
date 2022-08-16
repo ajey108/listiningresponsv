@@ -20,13 +20,26 @@
 .tab {
     /* float: left; */
     /* border: 1px solid rgb(9, 9, 9); */
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     width: 10%;
     height: 500px;
     float: left;
     /* position absolute; */
     /* display: inline-block; */
   }
+
+  @media (min-width: 300px) and (max-width: 800px) {
+    .tab{
+      display: block;
+      color: aqua;
+      background-color: red;
+    }
+
+  }
+
+
+
+
   .mydiv
 {
     /* border: 2px solid black; */
